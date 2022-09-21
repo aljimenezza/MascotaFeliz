@@ -66,3 +66,5 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\ru
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.pdb
+C:\Users\HOGAR\OneDrive\Escritorio\MascotaFeliz\mascotafeliz.app\mascotafeliz.app.consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
+C:\Users\HOGAR\OneDrive\Escritorio\MascotaFeliz\mascotafeliz.app\mascotafeliz.app.consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb

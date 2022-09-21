@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {}
+    "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+    "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "projectUniqueName": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
         "projectName": "MascotaFeliz.App.Dominio",
-        "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
+        "projectPath": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\HOGAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alejandro Jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HOGAR\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -57,17 +57,17 @@
         }
       }
     },
-    "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj": {
+    "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
         "projectName": "MascotaFeliz.App.Persistencia",
-        "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\",
-        "outputPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\mascotafeliz.app.persistencia\\MascotaFeliz.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\HOGAR\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\mascotafeliz.app.persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Alejandro Jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\HOGAR\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -78,8 +78,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-                "projectPath": "C:\\Mascotas\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+              "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+                "projectPath": "C:\\Users\\HOGAR\\OneDrive\\Escritorio\\MascotaFeliz\\mascotafeliz.app\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
               }
             }
           }

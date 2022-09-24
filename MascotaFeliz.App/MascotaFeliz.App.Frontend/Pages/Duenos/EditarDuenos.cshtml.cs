@@ -11,7 +11,6 @@ namespace MascotaFeliz.App.Frontend.Pages
 {
     public class EditarDuenosModel : PageModel
     {
-
         private readonly IRepositorioDueno _repoDueno;
         [BindProperty]
         public Dueno dueno {get;set;}

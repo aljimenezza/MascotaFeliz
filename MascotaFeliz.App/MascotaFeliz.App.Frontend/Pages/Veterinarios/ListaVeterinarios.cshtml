@@ -1,0 +1,27 @@
+﻿@page
+@model MascotaFeliz.App.Frontend.Pages.ListaVeterinariosModel
+@{
+}
+<h1>Lista de Veterinarios<h1>
+<h2>Aquí va la lista de los veterinarios<h2>
+<table class= "table">
+    @foreach (var veterinario in Model.listaVeterinarios)
+    {
+        <tr>
+            <td>@veterinario.Nombres</td>
+            <td>@veterinario.Apellidos</td>
+    
+              <td>
+                <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
+                    Detalle Veterinario
+                </a>
+            </td>
+            <td>
+                <a class="btn btn-primary table-btn" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
+                    Editar Veterinario
+                </a>
+            </td>
+        </tr>
+        
+    }
+</table>

@@ -7263,19 +7263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\": {}
+    "C:\\Users\\Dgarc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
       "projectName": "MascotaFeliz.App.Persistencia",
-      "projectPath": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
-      "packagesPath": "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\",
-      "outputPath": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\obj\\",
+      "projectPath": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\MascotaFeliz.App.Persistencia.csproj",
+      "packagesPath": "C:\\Users\\Dgarc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Alejandro Jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Dgarc\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
@@ -7286,8 +7286,8 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
-              "projectPath": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
+            "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj"
             }
           }
         }

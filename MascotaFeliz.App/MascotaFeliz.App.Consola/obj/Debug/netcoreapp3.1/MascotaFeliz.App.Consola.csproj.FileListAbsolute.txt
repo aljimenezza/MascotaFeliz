@@ -68,3 +68,9 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\Ma
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Consola\bin\Debug\netcoreapp3.1\MascotaFeliz.App.Persistencia.pdb
 C:\Users\HOGAR\OneDrive\Escritorio\MascotaFeliz\mascotafeliz.app\mascotafeliz.app.consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
 C:\Users\HOGAR\OneDrive\Escritorio\MascotaFeliz\mascotafeliz.app\mascotafeliz.app.consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csprojAssemblyReference.cache
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfoInputs.cache
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.AssemblyInfo.cs
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.csproj.CoreCompileInputs.cache
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.dll
+C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Consola\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Consola.pdb

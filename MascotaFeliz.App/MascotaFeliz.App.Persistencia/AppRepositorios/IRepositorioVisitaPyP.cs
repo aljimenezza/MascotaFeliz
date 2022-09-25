@@ -1,23 +1,23 @@
-// using System;
-// using System.Collections.Generic;
-// using System.Linq;
-// using System.Threading.Tasks;
-// using MascotaFeliz.App.Dominio;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using MascotaFeliz.App.Dominio;
 
-// namespace MascotaFeliz.App.Persistencia
-// {
-//     public interface IRepositorioVisitaPyP
-//     {
-//         IEnumerable<VisitaPyP> GetAllVisitasPyP();
+namespace MascotaFeliz.App.Persistencia
+{
+    public interface IRepositorioVisitaPyP
+    {
+        IEnumerable<VisitaPyP> GetAllVisitasPyP();
 
-//         VisitaPyP AddVisitaPyP (VisitaPyP visitaPyP);
+        VisitaPyP AddVisitaPyP (VisitaPyP visitaPyP);
 
-//         VisitaPyP UpdateVisitaPyP (VisitaPyP visitaPyP);
+        VisitaPyP UpdateVisitaPyP (VisitaPyP visitaPyP);
 
-//         void DeleteVisitaPyP (int idVisitaPyP);
+        void DeleteVisitaPyP (int idVisitaPyP);
 
-//         VisitaPyP GetVisitaPyP(int idVisitaPyP);
+        VisitaPyP GetVisitaPyP(int idVisitaPyP);
 
-//         IEnumerable<VisitaPyP> GetVisitaPyPFiltro(VisitaPyP visitaPyP);
-//     }
-// }
+        IEnumerable<VisitaPyP> GetVisitaPyPFiltro(VisitaPyP visitaPyP);
+    }
+}

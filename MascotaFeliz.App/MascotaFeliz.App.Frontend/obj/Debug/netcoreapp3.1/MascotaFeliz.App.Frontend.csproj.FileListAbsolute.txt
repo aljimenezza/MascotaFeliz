@@ -263,3 +263,4 @@ C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Frontend\o
 C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.Frontend.StaticWebAssets.Manifest.cache
 C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\staticwebassets\MascotaFeliz.App.Frontend.StaticWebAssets.xml
 C:\Users\Dgarc\Desktop\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\MascotaFeliz.App.Frontend.genruntimeconfig.cache
+G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\VisitaPyP\VisitaPyP.cshtml.g.cs

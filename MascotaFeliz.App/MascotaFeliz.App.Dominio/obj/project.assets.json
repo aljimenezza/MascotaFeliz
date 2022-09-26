@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dgarc\\.nuget\\packages\\": {}
+    "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "projectUniqueName": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
       "projectName": "MascotaFeliz.App.Dominio",
-      "projectPath": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
-      "packagesPath": "C:\\Users\\Dgarc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dgarc\\Desktop\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
+      "projectPath": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\MascotaFeliz.App.Dominio.csproj",
+      "packagesPath": "C:\\Users\\Alejandro Jimenez\\.nuget\\packages\\",
+      "outputPath": "G:\\Mi unidad\\Alejo PC\\Estudio\\Material cursos extra\\Misión TIC\\Ciclo 3\\Repositorio Proyecto\\MascotaFeliz\\MascotaFeliz.App\\MascotaFeliz.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dgarc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alejandro Jimenez\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"

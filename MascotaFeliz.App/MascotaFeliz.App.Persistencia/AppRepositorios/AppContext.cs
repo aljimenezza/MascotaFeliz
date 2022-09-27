@@ -20,7 +20,5 @@ namespace MascotaFeliz.App.Persistencia
                 .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog = MascotaFelizData");
             }
         }
-
-
     }
 }

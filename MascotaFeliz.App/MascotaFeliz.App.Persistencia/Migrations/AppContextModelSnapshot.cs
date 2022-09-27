@@ -83,6 +83,9 @@ namespace MascotaFeliz.App.Persistencia.Migrations
                     b.Property<string>("Apellidos")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Cedula")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Direccion")
                         .HasColumnType("nvarchar(max)");
 
@@ -110,6 +113,9 @@ namespace MascotaFeliz.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<string>("CedulaVeterinario")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("EstadoAnimo")
                         .HasColumnType("nvarchar(max)");
 
@@ -123,9 +129,6 @@ namespace MascotaFeliz.App.Persistencia.Migrations
                         .HasColumnType("real");
 
                     b.Property<int?>("HistoriaId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("IdVeterinario")
                         .HasColumnType("int");
 
                     b.Property<float>("Peso")
@@ -188,13 +191,13 @@ namespace MascotaFeliz.App.Persistencia.Migrations
             modelBuilder.Entity("MascotaFeliz.App.Dominio.VisitaPyP", b =>
                 {
                     b.HasOne("MascotaFeliz.App.Dominio.Historia", null)
-                        .WithMany("VisitaPyP")
+                        .WithMany("VisitasPyP")
                         .HasForeignKey("HistoriaId");
                 });
 
             modelBuilder.Entity("MascotaFeliz.App.Dominio.Historia", b =>
                 {
-                    b.Navigation("VisitaPyP");
+                    b.Navigation("VisitasPyP");
                 });
 #pragma warning restore 612, 618
         }

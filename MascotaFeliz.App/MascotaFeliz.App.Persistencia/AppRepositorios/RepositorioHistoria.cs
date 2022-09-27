@@ -6,27 +6,26 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
-    public class RepositorioHistoria : IRepositorioHistoria  // Repositorio implementa los metodos de la interfaz IRepositorio
+    public class RepositorioHistoria : IRepositorioHistoria
     {
         /// <summary>
-        /// Referencia al contexto de Dueno
+        /// Referencia al contexto de Historia
         /// </summary>
-        private readonly AppContext _appContext;  // Define un objeto AppContext, _appContext es el nombre de la variable
+        private readonly AppContext _appContext;
         /// <summary>
         /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
         /// </summary>
         /// <param name="appContext"></param>//
-        
-        public RepositorioHistoria(AppContext appContext) // Metodo Constructor, recibe un AppContext y lo almacena en appContext
+        public RepositorioHistoria(AppContext appContext)
         {
-            _appContext = appContext; // lo que se recibe en appContext se le asigna a la variable de la clase _appContext
+            _appContext = appContext;
         }
 
         public Historia AddHistoria(Historia historia)
         {
-            var historiaAdicionado = _appContext.Historias.Add(historia); // En la tabla agrega ja historia
-            _appContext.SaveChanges();  // Guarda el cambio
+            var historiaAdicionado = _appContext.Historias.Add(historia);
+            _appContext.SaveChanges();
             return historiaAdicionado.Entity;
         }
 
@@ -39,19 +38,22 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-       public IEnumerable<Historia> GetAllHistoria()
+        public IEnumerable<Historia> GetAllHistorias()
         {
-            return GetAllHistoria_();
+            return _appContext.Historias; 
         }
 
-        public IEnumerable<Historia> GetAllHistoria_()
+        IEnumerable<VisitaPyP> IRepositorioHistoria.GetVisitasHistoria(int idHistoria)
         {
-            return _appContext.Historias;
+            var historia = _appContext.Historias.Where(h => h.Id == idHistoria)
+                                                .Include(h => h.VisitasPyP)
+                                                .FirstOrDefault();
+            return historia.VisitasPyP;
         }
 
         public Historia GetHistoria(int idHistoria)
         {
-            return _appContext.Historias.FirstOrDefault(d => d.Id == idHistoria);
+            return _appContext.Historias.Include(a => a.VisitasPyP).FirstOrDefault(d => d.Id == idHistoria);
         }
 
         public Historia UpdateHistoria(Historia historia)
@@ -60,25 +62,15 @@ namespace MascotaFeliz.App.Persistencia
             if (historiaEncontrado != null)
             {
                 historiaEncontrado.FechaInicial = historia.FechaInicial;
+                historiaEncontrado.VisitasPyP = historia.VisitasPyP;
+
                 _appContext.SaveChanges();
             }
             return historiaEncontrado;
-        }     
-
-        public Historia AsignarHistoria(int idMascota, int idHistoria)
-        {
-            var mascotaEncontrado = _appContext.Mascotas.FirstOrDefault(m => m.Id == idMascota);
-            if(mascotaEncontrado != null)
-            {
-                var historiaEncontrado = _appContext.Historias.FirstOrDefault(v => v.Id == idHistoria);
-                if (historiaEncontrado != null)
-                {   
-                    mascotaEncontrado.Historia = historiaEncontrado;
-                    _appContext.SaveChanges();
-                }
-                return historiaEncontrado;
-            }
-            return  null;
         }
+
+        
+        
     }
+
 }

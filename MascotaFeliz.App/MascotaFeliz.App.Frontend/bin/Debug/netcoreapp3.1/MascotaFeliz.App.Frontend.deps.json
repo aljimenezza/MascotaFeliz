@@ -24,6 +24,7 @@
     ".NETCoreApp,Version=v3.1": {
       "MascotaFeliz.App.Frontend/1.0.0": {
         "dependencies": {
+          "MascotaFeliz.App.Consola": "1.0.0",
           "MascotaFeliz.App.Dominio": "1.0.0",
           "MascotaFeliz.App.Persistencia": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
@@ -1360,6 +1361,18 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
+        }
+      },
+      "MascotaFeliz.App.Consola/1.0.0": {
+        "dependencies": {
+          "MascotaFeliz.App.Dominio": "1.0.0",
+          "MascotaFeliz.App.Persistencia": "1.0.0"
+        },
+        "runtime": {
+          "MascotaFeliz.App.Consola.dll": {}
+        },
+        "compile": {
+          "MascotaFeliz.App.Consola.dll": {}
         }
       },
       "MascotaFeliz.App.Dominio/1.0.0": {
@@ -3668,6 +3681,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "MascotaFeliz.App.Consola/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "MascotaFeliz.App.Dominio/1.0.0": {
       "type": "project",

@@ -11,5 +11,6 @@ namespace MascotaFeliz.App.Dominio
         public Dueno Dueno {get;set;}
         public Veterinario Veterinario {get;set;}
         public Historia Historia {get;set;}
+        
     }
 }

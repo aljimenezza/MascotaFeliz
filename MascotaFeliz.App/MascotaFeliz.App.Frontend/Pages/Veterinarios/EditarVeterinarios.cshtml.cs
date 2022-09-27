@@ -13,13 +13,13 @@ namespace MascotaFeliz.App.Frontend.Pages
     {
         private readonly IRepositorioVeterinario _repoVeterinario;
         [BindProperty]
-        public Veterinario veterinario {get;set;}
+        public Veterinario veterinario { get; set; }
 
         public EditarVeterinariosModel()
         {
             this._repoVeterinario = new RepositorioVeterinario(new Persistencia.AppContext());
         }
-
+        
         public IActionResult OnGet(int? veterinarioId)
         {
             if (veterinarioId.HasValue)
@@ -40,7 +40,7 @@ namespace MascotaFeliz.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
             }

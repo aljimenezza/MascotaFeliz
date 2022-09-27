@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
 using MascotaFeliz.App.Dominio;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +8,19 @@ namespace MascotaFeliz.App.Persistencia
 {
     public class RepositorioVisitaPyP : IRepositorioVisitaPyP
     {
+        /// <summary>
+        /// Referencia al contexto de VisitaPyP
+        /// </summary>
+
+
         private readonly AppContext _appContext;
+
+
+        /// <summary>
+        /// Metodo Constructor Utiiza 
+        /// Inyeccion de dependencias para indicar el contexto a utilizar
+        /// </summary>
+        /// <param name="appContext"></param>//
 
         public RepositorioVisitaPyP(AppContext appContext)
         {
@@ -18,27 +29,9 @@ namespace MascotaFeliz.App.Persistencia
 
         public VisitaPyP AddVisitaPyP(VisitaPyP visitaPyP)
         {
-            var visitaPyPNuevo = _appContext.VisitasPyP.Add(visitaPyP);
+            var visitaPyPAdicionado = _appContext.VisitasPyP.Add(visitaPyP);
             _appContext.SaveChanges();
-            return visitaPyPNuevo.Entity;
-        }
-
-        public VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP)
-        {
-            var visitaPyPEncontrado = _appContext.VisitasPyP.FirstOrDefault(d => d.Id == visitaPyP.Id);
-            if(visitaPyPEncontrado != null)
-            {
-                visitaPyPEncontrado.Temperatura = visitaPyP.Temperatura;
-                visitaPyPEncontrado.Peso = visitaPyP.Peso;
-                visitaPyPEncontrado.FrecuenciaRespiratoria = visitaPyP.FrecuenciaRespiratoria;
-                visitaPyPEncontrado.FrecuenciaCardiaca = visitaPyP.FrecuenciaCardiaca;
-                visitaPyPEncontrado.EstadoAnimo = visitaPyP.EstadoAnimo;
-                visitaPyPEncontrado.FechaVisita = visitaPyP.FechaVisita;
-                visitaPyPEncontrado.Recomendaciones = visitaPyP.Recomendaciones;
-                visitaPyPEncontrado.IdVeterinario = visitaPyP.IdVeterinario;
-                _appContext.SaveChanges();
-            }
-            return visitaPyPEncontrado;
+            return visitaPyPAdicionado.Entity;
         }
 
         public void DeleteVisitaPyP(int idVisitaPyP)
@@ -50,25 +43,12 @@ namespace MascotaFeliz.App.Persistencia
             _appContext.SaveChanges();
         }
 
-        public IEnumerable<VisitaPyP> GetAllVisitasPyP()
+       public IEnumerable<VisitaPyP> GetAllVisitasPyP()
         {
-            return GetAllVisitasPyP_();
+            return GetAllVisitaPyPs_();
         }
 
-        public IEnumerable<VisitaPyP> GetVisitaPyPFiltro(VisitaPyP visitaPyP)
-        {
-            var visitasPyP = GetAllVisitasPyP();
-            if (visitasPyP != null)
-            {
-                if(!String.IsNullOrEmpty(visitaPyP.EstadoAnimo))
-                {
-                    visitasPyP = visitasPyP.Where(s => s.EstadoAnimo.Contains(visitaPyP.EstadoAnimo));
-                }
-            }
-            return visitasPyP;
-        }
-        
-        public IEnumerable<VisitaPyP> GetAllVisitasPyP_()
+        public IEnumerable<VisitaPyP> GetAllVisitaPyPs_()
         {
             return _appContext.VisitasPyP;
         }
@@ -78,5 +58,24 @@ namespace MascotaFeliz.App.Persistencia
             return _appContext.VisitasPyP.FirstOrDefault(d => d.Id == idVisitaPyP);
         }
 
+        public VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP)
+        {
+            var visitaPyPEncontrado = _appContext.VisitasPyP.FirstOrDefault(d => d.Id == visitaPyP.Id);
+            if (visitaPyPEncontrado != null)
+            {
+                visitaPyPEncontrado.FechaVisita = visitaPyP.FechaVisita;
+                visitaPyPEncontrado.Temperatura = visitaPyP.Temperatura;
+                visitaPyPEncontrado.Peso = visitaPyP.Peso;
+                visitaPyPEncontrado.FrecuenciaRespiratoria = visitaPyP.FrecuenciaRespiratoria;
+                visitaPyPEncontrado.FrecuenciaCardiaca = visitaPyP.FrecuenciaCardiaca;
+                visitaPyPEncontrado.EstadoAnimo = visitaPyP.EstadoAnimo;
+                visitaPyPEncontrado.CedulaVeterinario = visitaPyP.CedulaVeterinario;
+                visitaPyPEncontrado.Recomendaciones = visitaPyP.Recomendaciones;
+
+
+                _appContext.SaveChanges();
+            }
+            return visitaPyPEncontrado;
+        }     
     }
 }

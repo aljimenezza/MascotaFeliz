@@ -13,13 +13,13 @@ namespace MascotaFeliz.App.Frontend.Pages
     {
         private readonly IRepositorioDueno _repoDueno;
         [BindProperty]
-        public Dueno dueno {get;set;}
+        public Dueno dueno { get; set; }
 
         public EditarDuenosModel()
         {
             this._repoDueno = new RepositorioDueno(new Persistencia.AppContext());
         }
-
+        
         public IActionResult OnGet(int? duenoId)
         {
             if (duenoId.HasValue)
@@ -40,7 +40,7 @@ namespace MascotaFeliz.App.Frontend.Pages
 
         public IActionResult OnPost()
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return Page();
             }

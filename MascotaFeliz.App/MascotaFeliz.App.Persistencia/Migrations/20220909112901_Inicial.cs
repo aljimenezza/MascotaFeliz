@@ -26,6 +26,7 @@ namespace MascotaFeliz.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Cedula = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Nombres = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Apellidos = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
@@ -51,7 +52,7 @@ namespace MascotaFeliz.App.Persistencia.Migrations
                     FrecuenciaRespiratoria = table.Column<float>(type: "real", nullable: false),
                     FrecuenciaCardiaca = table.Column<float>(type: "real", nullable: false),
                     EstadoAnimo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    IdVeterinario = table.Column<int>(type: "int", nullable: false),
+                    CedulaVeterinario = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Recomendaciones = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     HistoriaId = table.Column<int>(type: "int", nullable: true)
                 },

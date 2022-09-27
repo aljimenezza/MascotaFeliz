@@ -11,7 +11,9 @@ namespace MascotaFeliz.App.Persistencia
         /// <summary>
         /// Referencia al contexto de Dueno
         /// </summary>
+
         private readonly AppContext _appContext;
+       
         /// <summary>
         /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
@@ -41,7 +43,7 @@ namespace MascotaFeliz.App.Persistencia
 
        public IEnumerable<Dueno> GetAllDuenos()
         {
-            return _appContext.Duenos;
+            return  _appContext.Duenos;
         }
 
         public IEnumerable<Dueno> GetDuenosPorFiltro(string filtro)
@@ -57,6 +59,7 @@ namespace MascotaFeliz.App.Persistencia
             return duenos;
         }
 
+       
         public Dueno GetDueno(int idDueno)
         {
             return _appContext.Duenos.FirstOrDefault(d => d.Id == idDueno);
@@ -67,6 +70,7 @@ namespace MascotaFeliz.App.Persistencia
             var duenoEncontrado = _appContext.Duenos.FirstOrDefault(d => d.Id == dueno.Id);
             if (duenoEncontrado != null)
             {
+                             
                 duenoEncontrado.Nombres = dueno.Nombres;
                 duenoEncontrado.Apellidos = dueno.Apellidos;
                 duenoEncontrado.Direccion = dueno.Direccion;

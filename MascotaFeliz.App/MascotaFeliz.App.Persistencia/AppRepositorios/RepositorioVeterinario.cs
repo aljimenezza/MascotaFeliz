@@ -6,12 +6,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace MascotaFeliz.App.Persistencia
 {
+
     public class RepositorioVeterinario : IRepositorioVeterinario
     {
         /// <summary>
         /// Referencia al contexto de Veterinario
         /// </summary>
+        
         private readonly AppContext _appContext;
+        
         /// <summary>
         /// Metodo Constructor Utiiza 
         /// Inyeccion de dependencias para indicar el contexto a utilizar
@@ -23,11 +26,13 @@ namespace MascotaFeliz.App.Persistencia
             _appContext = appContext;
         }
 
+
         public Veterinario AddVeterinario(Veterinario veterinario)
         {
             var veterinarioAdicionado = _appContext.Veterinarios.Add(veterinario);
             _appContext.SaveChanges();
             return veterinarioAdicionado.Entity;
+
         }
 
         public void DeleteVeterinario(int idVeterinario)
@@ -41,7 +46,7 @@ namespace MascotaFeliz.App.Persistencia
 
        public IEnumerable<Veterinario> GetAllVeterinarios()
         {
-            return _appContext.Veterinarios;
+            return GetAllVeterinarios_();
         }
 
         public IEnumerable<Veterinario> GetVeterinariosPorFiltro(string filtro)
@@ -53,8 +58,15 @@ namespace MascotaFeliz.App.Persistencia
                 {
                     veterinarios = veterinarios.Where(s => s.Nombres.Contains(filtro));
                 }
+
             }
             return veterinarios;
+
+        }
+
+        public IEnumerable<Veterinario> GetAllVeterinarios_()
+        {
+            return _appContext.Veterinarios;
         }
 
         public Veterinario GetVeterinario(int idVeterinario)
@@ -67,6 +79,7 @@ namespace MascotaFeliz.App.Persistencia
             var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(d => d.Id == veterinario.Id);
             if (veterinarioEncontrado != null)
             {
+                
                 veterinarioEncontrado.Nombres = veterinario.Nombres;
                 veterinarioEncontrado.Apellidos = veterinario.Apellidos;
                 veterinarioEncontrado.Direccion = veterinario.Direccion;
@@ -75,6 +88,7 @@ namespace MascotaFeliz.App.Persistencia
                 _appContext.SaveChanges();
             }
             return veterinarioEncontrado;
-        }     
+        }
     }
 }
+    

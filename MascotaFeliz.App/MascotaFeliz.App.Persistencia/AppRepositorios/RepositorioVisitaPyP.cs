@@ -55,7 +55,7 @@ namespace MascotaFeliz.App.Persistencia
 
         public VisitaPyP GetVisitaPyP(int idVisitaPyP)
         {
-            return _appContext.VisitasPyP.FirstOrDefault(d => d.Id == idVisitaPyP);
+            return _appContext.VisitasPyP.Include("Veterinario").Include("Historia").FirstOrDefault(d => d.Id == idVisitaPyP);
         }
 
         public VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP)
@@ -69,13 +69,47 @@ namespace MascotaFeliz.App.Persistencia
                 visitaPyPEncontrado.FrecuenciaRespiratoria = visitaPyP.FrecuenciaRespiratoria;
                 visitaPyPEncontrado.FrecuenciaCardiaca = visitaPyP.FrecuenciaCardiaca;
                 visitaPyPEncontrado.EstadoAnimo = visitaPyP.EstadoAnimo;
-                visitaPyPEncontrado.CedulaVeterinario = visitaPyP.CedulaVeterinario;
+                visitaPyPEncontrado.Veterinario = visitaPyP.Veterinario;
+                visitaPyPEncontrado.Historia = visitaPyP.Historia;
                 visitaPyPEncontrado.Recomendaciones = visitaPyP.Recomendaciones;
 
 
                 _appContext.SaveChanges();
             }
             return visitaPyPEncontrado;
-        }     
+        }
+
+        public Veterinario AsignarVeterinario(int idVisitaPyP, int idVeterinario)
+        {
+            var visitaPyPEncontrado = _appContext.VisitasPyP.FirstOrDefault(m => m.Id == idVisitaPyP);
+            if (visitaPyPEncontrado != null)
+            {
+                var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+                if (veterinarioEncontrado != null)
+                {
+                    visitaPyPEncontrado.Veterinario = veterinarioEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return veterinarioEncontrado;
+            }
+            return null;
+        }   
+
+        public Historia AsignarHistoria(int idVisitaPyP, int idHistoria)
+        {
+            var visitaPyPEncontrado = _appContext.VisitasPyP.FirstOrDefault(m => m.Id == idVisitaPyP);
+            if (visitaPyPEncontrado != null)
+            {
+                var historiaEncontrado = _appContext.Historias.FirstOrDefault(v => v.Id == idHistoria);
+                if (historiaEncontrado != null)
+                {
+                    visitaPyPEncontrado.Historia = historiaEncontrado;
+                    _appContext.SaveChanges();
+                }
+                return historiaEncontrado;
+            }
+            return null;
+        }
+
     }
 }

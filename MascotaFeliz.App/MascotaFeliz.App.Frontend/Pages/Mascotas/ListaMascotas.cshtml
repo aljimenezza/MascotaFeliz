@@ -6,7 +6,7 @@
 <table class="table">
      <tr>
         <th>Nombre</th>
-        <th>Color</th>
+        <th>Raza</th>
         <th>Nombre Dueño</th>
 
     </tr>
@@ -14,7 +14,8 @@
     {
         <tr>
             <td>@mascota.Nombre</td>
-            <td>@mascota.Color</td>
+            <td>@mascota.Raza</td>
+            <td>@mascota.Dueno.Nombres @mascota.Dueno.Apellidos</td>
             
             <td>
                 <a class="btn btn-primary table-btn" asp-page="./DetallesMascotas" asp-route-mascotaId="@mascota.Id">

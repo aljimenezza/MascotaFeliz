@@ -2,25 +2,39 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesVeterinariosModel
 @{
 }
-<h1>Detalles del Veterinario</h1>
+<!DOCTYPE html>
+<html>
 
-<div>
-    Id: @Model.veterinario.Id
-</div>
+<head>
 
-<div>
-    Nombre: @Model.veterinario.Nombres
-</div>
-<div>
-    Apellido: @Model.veterinario.Apellidos
-</div>
-<div>
-    Direccion: @Model.veterinario.Direccion
-</div>
-<div>
-    Telefono: @Model.veterinario.Telefono
-</div>
-<div>
-    Correo: @Model.veterinario.TarjetaProfesional
-</div>
-<a asp-page="./Listaveterinarios" class="btn-default">Lista de Veterinarios </a>
+  <link href="~/css/detallesveterinario.css" rel="stylesheet" type="text/css" title="Color" />
+</head>
+
+<body>
+    <div id="title">
+        <h1 align="center">Detalles del Veterinario</h1>
+    </div>
+        <div id="indice"> 
+            <div>
+                Id: @Model.veterinario.Id
+            </div>
+
+            <div>
+                Nombre: @Model.veterinario.Nombres
+            </div>
+            <div>
+                Apellido: @Model.veterinario.Apellidos
+            </div>
+            <div>
+                Direccion: @Model.veterinario.Direccion
+            </div>
+            <div>
+                Telefono: @Model.veterinario.Telefono
+            </div>
+            <div>
+                Correo: @Model.veterinario.TarjetaProfesional
+            </div>
+            <a asp-page="./Listaveterinarios" class="btn-default">Lista de Veterinarios </a>
+        </div>
+</body>
+</html>

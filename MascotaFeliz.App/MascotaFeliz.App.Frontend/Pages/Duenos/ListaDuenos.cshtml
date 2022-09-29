@@ -2,11 +2,21 @@
 @model MascotaFeliz.App.Frontend.Pages.ListaDuenosModel
 @{
 }
+<!DOCTYPE html>
+<html>
 
-<h1>Listado de Propietarios</h1>
-<table class="table">
+<head>
+
+  <title>Pagina Veterinaria</title>
+
+  <link href="~/css/dueno.css" rel="stylesheet" type="text/css" title="Color" />
+</head>
+
+<body>
+<h1>Listado de Dueños</h1>
+<div id="indice"> 
+<table bg color = "yellow" class="table">
     <tr>
-        
         <th>Nombres</th>
         <th>Apellidos</th>
     </tr>
@@ -33,3 +43,6 @@
     }
 </table>
 <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
+</div>
+</body>
+</html>

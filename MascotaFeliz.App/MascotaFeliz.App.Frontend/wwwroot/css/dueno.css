@@ -1,17 +1,12 @@
-
 body{
-    background: url(images/mascotas.jpeg) no-repeat fixed center;
+    background: url(imagescss/fondo5.jpg) no-repeat fixed center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
     }
     div#indice {
-      background: url(images/pastel.png) no-repeat fixed center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+      background-color: rgb(247, 203, 122);
       height: 80%;
       left: 60%;
       position: fixed;

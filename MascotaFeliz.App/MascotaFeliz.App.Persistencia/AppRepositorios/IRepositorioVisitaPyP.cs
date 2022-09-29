@@ -14,8 +14,6 @@ namespace MascotaFeliz.App.Persistencia
         VisitaPyP UpdateVisitaPyP(VisitaPyP visitaPyP);
         void DeleteVisitaPyP(int idVisitaPyP);
         VisitaPyP GetVisitaPyP(int idVisitaPyP);
-        Veterinario AsignarVeterinario(int idVisitaPyP, int idVeterinario);
-        Historia AsignarHistoria(int idVisitaPyP, int idHistoria);
         
     }
 }

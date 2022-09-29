@@ -7,30 +7,12 @@ C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\M
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
 C:\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-C:\Users\Alejandro Jimenez\Desktop\Mascotas\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
-G:\Mi unidad\Alejo PC\Estudio\Material cursos extra\Misión TIC\Ciclo 3\Repositorio Proyecto\MascotaFeliz\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.deps.json
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\bin\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csprojAssemblyReference.cache
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfoInputs.cache
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.AssemblyInfo.cs
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.dll
+C:\Users\Alejandro Jimenez\Downloads\MascotaFeliz.App (1)\MascotaFeliz.App\MascotaFeliz.App.Dominio\obj\Debug\netstandard2.0\MascotaFeliz.App.Dominio.pdb

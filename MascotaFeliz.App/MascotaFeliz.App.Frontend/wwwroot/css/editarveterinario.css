@@ -1,5 +1,5 @@
 body{
-    background: url(imagescss/dueno.jpg) no-repeat fixed center;
+    background: url(imagescss/editarveterinario.webp) no-repeat fixed center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -8,7 +8,7 @@ body{
     div#title {
       background-color: rgb(255, 255, 255);
       height: 15%;
-      left: 60%;
+      left: 00%;
       position: relative;
       top: 15%;
       width: 40%;
@@ -17,7 +17,7 @@ body{
     div#indice {
       background-color: rgb(255, 255, 255);
       height: 64%;
-      left: 60%;
+      left: 0%;
       position: relative;
       top: 25%;
       width: 40%;

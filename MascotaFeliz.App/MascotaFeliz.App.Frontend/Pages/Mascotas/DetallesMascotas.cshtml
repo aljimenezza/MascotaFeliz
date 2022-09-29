@@ -2,31 +2,45 @@
 @model MascotaFeliz.App.Frontend.Pages.DetallesMascotasModel
 @{
 }
-<h1>Detalles de la Mascota</h1>
+<!DOCTYPE html>
+<html>
 
-<div>
-    Id: @Model.mascota.Id
-</div>
+<head>
 
-<div>
-    Nombre: @Model.mascota.Nombre
-</div>
-<div>
-    Color: @Model.mascota.Color
-</div>
-<div>
-    Raza: @Model.mascota.Raza
-</div>
-<div>
-    Especie: @Model.mascota.Especie
-</div>
+  <link href="~/css/detallesmascota.css" rel="stylesheet" type="text/css" title="Color" />
+</head>
 
-<div>
-    Nombre del dueño: @Model.mascota.Dueno.Nombres
-</div>
-<div>
-    Nombre del veterinario: @Model.mascota.Veterinario.Nombres
-</div>
+<body>
+    <div id="title">
+        <h1 align="center">Detalles de la Mascota</h1>
+    </div>
+    <div id="indice"> 
+        <div>
+            Id: @Model.mascota.Id
+        </div>
+
+        <div>
+            Nombre: @Model.mascota.Nombre
+        </div>
+        <div>
+            Color: @Model.mascota.Color
+        </div>
+        <div>
+            Raza: @Model.mascota.Raza
+        </div>
+        <div>
+            Especie: @Model.mascota.Especie
+        </div>
+
+        <div>
+            Nombre del dueño: @Model.mascota.Dueno.Nombres
+        </div>
+        <div>
+            Nombre del veterinario: @Model.mascota.Veterinario.Nombres
+        </div>
 
 
-<a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
+        <a asp-page="./ListaMascotas" class="btn-default">Lista de Mascotas </a>
+    </div>
+</body>
+</html>

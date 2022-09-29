@@ -2,31 +2,46 @@
 @model MascotaFeliz.App.Frontend.Pages.ListaVeterinariosModel
 @{
 }
-<h1>Listado de Veterinarios</h1>
-<table class="table">
-     <tr>
-        
-        <th>Nombres</th>
-        <th>Apellidos</th>
-    </tr>
-    @foreach (var veterinario in Model.listaVeterinarios)
-    {
-        <tr>
-            
-            <td>@veterinario.Nombres</td>
-            <td>@veterinario.Apellidos</td>
-            
-            <td>
-                <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
-                    Detalle Veterinario
-                </a>
-            </td>
-            <td>
-                <a class="btn btn-primary table-btn" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
-                    Editar Veterinario
-                </a>
-            </td>
-        </tr>
-    }
-</table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link href="~/css/listaveterinario.css" rel="stylesheet" type="text/css" title="Color" />
+</head>
+
+<body>
+    <div id="title">
+        <h1 align="center">Listado de Veterinarios</h1>
+    </div>
+    <div id="indice"> 
+        <table align="center" class="table">
+            <tr>
+                
+                <th>Nombres</th>
+                <th>Apellidos</th>
+            </tr>
+            @foreach (var veterinario in Model.listaVeterinarios)
+            {
+                <tr>
+                    
+                    <td>@veterinario.Nombres</td>
+                    <td>@veterinario.Apellidos</td>
+                    
+                    <td>
+                        <a class="btn btn-primary table-btn" asp-page="./DetallesVeterinarios" asp-route-veterinarioId="@veterinario.Id">
+                            Detalle Veterinario
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-primary table-btn" asp-page="./EditarVeterinarios" asp-route-veterinarioId="@veterinario.Id">
+                            Editar Veterinario
+                        </a>
+                    </td>
+                </tr>
+            }
+        </table>
+        <a class = "btn btn-primary table-btn" asp-page="./EditarVeterinarios" class="btn-default">Adicionar Veterinario</a>
+    </div>
+</body>
+</html>

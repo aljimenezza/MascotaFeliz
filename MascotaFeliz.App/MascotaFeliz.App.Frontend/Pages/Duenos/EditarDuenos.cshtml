@@ -3,25 +3,39 @@
 @{
     
 }
-<h2>Agregar o editar Dueños</h2>
+<!DOCTYPE html>
+<html>
 
-<form method="post" >
-    <div class="form-group">
-        <input type="hidden" asp-for = "dueno.Id" />
-        
-        <label asp-for="dueno.Nombres"></label>
-        <input asp-for="dueno.Nombres" class="form-control">
-        <label asp-for="dueno.Apellidos"></label>
-        <input asp-for="dueno.Apellidos" class="form-control">
-        <label asp-for="dueno.Direccion"></label>
-        <input asp-for="dueno.Direccion" class="form-control">
-        <label asp-for="dueno.Telefono"></label>
-        <input asp-for="dueno.Telefono" class="form-control">
-        <label asp-for="dueno.Correo"></label>
-        <input asp-for="dueno.Correo" class="form-control">
+<head>
 
-        <button type="submit" class="btn btn-primary">Grabar</button>
+  <link href="~/css/editardueno.css" rel="stylesheet" type="text/css" title="Color" />
+</head>
+
+<body>
+    <div id="title">
+        <h2 align="center">Agregar o editar Dueños</h2>
     </div>
-</form>
+        <div id="indice"> 
+            <form method="post" >
+                <div class="form-group">
+                    <input type="hidden" asp-for = "dueno.Id" />
+                    
+                    <label asp-for="dueno.Nombres"></label>
+                    <input asp-for="dueno.Nombres" class="form-control">
+                    <label asp-for="dueno.Apellidos"></label>
+                    <input asp-for="dueno.Apellidos" class="form-control">
+                    <label asp-for="dueno.Direccion"></label>
+                    <input asp-for="dueno.Direccion" class="form-control">
+                    <label asp-for="dueno.Telefono"></label>
+                    <input asp-for="dueno.Telefono" class="form-control">
+                    <label asp-for="dueno.Correo"></label>
+                    <input asp-for="dueno.Correo" class="form-control">
 
-<a asp-page="./ListaDuenos" class="btn-default">Lista de Dueños </a>
+                    <button type="submit" class="btn btn-primary">Grabar</button>
+                </div>
+            </form>
+
+            <a asp-page="./ListaDuenos" class="btn-default">Lista de Dueños </a>
+        </div>
+</body>
+</html>

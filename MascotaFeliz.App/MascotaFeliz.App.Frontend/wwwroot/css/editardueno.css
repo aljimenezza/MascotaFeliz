@@ -1,0 +1,38 @@
+body{
+    background: url(imagescss/editardueno.webp) no-repeat fixed center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    div#title {
+      background-color: rgb(255, 255, 255);
+      height: 15%;
+      left: 00%;
+      position: relative;
+      top: 15%;
+      width: 40%;
+    border-radius: 10px;
+    }
+    div#indice {
+      background-color: rgb(255, 255, 255);
+      height: 64%;
+      left: 0%;
+      position: relative;
+      top: 25%;
+      width: 40%;
+    border-radius: 10px;
+    }
+    
+    
+    div div {
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+    
+    p.enlace {
+      position: absolute;
+      bottom: 5px;
+      right: 5px;
+    }

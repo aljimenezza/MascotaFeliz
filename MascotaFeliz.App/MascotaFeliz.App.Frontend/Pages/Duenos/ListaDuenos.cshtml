@@ -7,42 +7,42 @@
 
 <head>
 
-  <title>Pagina Veterinaria</title>
-
   <link href="~/css/dueno.css" rel="stylesheet" type="text/css" title="Color" />
 </head>
 
 <body>
-<h1>Listado de Dueños</h1>
-<div id="indice"> 
-<table bg color = "yellow" class="table">
-    <tr>
-        <th>Nombres</th>
-        <th>Apellidos</th>
-    </tr>
-    @foreach (var dueno in Model.listaDuenos)
-    {
-        <tr>
-            
-            
-            <td>@dueno.Nombres</td>
-            <td>@dueno.Apellidos</td>
-        
-            <td>
-                <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
-                    Detalle Dueno
-                </a>
-            </td>
-            <td>
-                <a class="btn btn-primary table-btn" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
-                    Editar Dueno
-                </a>
-            </td>
+    <div id="title">
+        <h1 align="center">Listado de Dueños</h1>
+    </div>
+    <div id="indice"> 
+        <table align="center" position="fixed" class="table">
+            <tr>
+                <th>Nombres</th>
+                <th>Apellidos</th>
+            </tr>
+            @foreach (var dueno in Model.listaDuenos)
+            {
+                <tr>
+                    
+                    
+                    <td>@dueno.Nombres</td>
+                    <td>@dueno.Apellidos</td>
+                
+                    <td>
+                        <a class="btn btn-primary table-btn" asp-page="./DetallesDuenos" asp-route-duenoId="@dueno.Id">
+                            Detalle Dueno
+                        </a>
+                    </td>
+                    <td>
+                        <a class="btn btn-primary table-btn" asp-page="./EditarDuenos" asp-route-duenoId="@dueno.Id">
+                            Editar Dueno
+                        </a>
+                    </td>
 
-        </tr>
-    }
-</table>
-<a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
-</div>
+                </tr>
+            }
+        </table>
+        <a class = "btn btn-primary table-btn" asp-page="./EditarDuenos" class="btn-default">Adicionar Dueño</a>
+    </div>
 </body>
 </html>

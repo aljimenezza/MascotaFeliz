@@ -1,14 +1,14 @@
-body{
-    background: url(images/editardueno.jpeg) no-repeat fixed center;
+/* body{
+    background: url(images/home.jpg) no-repeat fixed center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    }
+    } */
     div#title {
       background-color: rgb(255, 255, 255);
       height: 15%;
-      left: 00%;
+      left: 12%;
       position: relative;
       top: 15%;
       width: 40%;
@@ -16,11 +16,11 @@ body{
     }
     div#indice {
       background-color: rgb(255, 255, 255);
-      height: 64%;
+      height: 100%;
       left: 0%;
       position: relative;
       top: 25%;
-      width: 40%;
+      width: 100%;
     border-radius: 10px;
     }
     

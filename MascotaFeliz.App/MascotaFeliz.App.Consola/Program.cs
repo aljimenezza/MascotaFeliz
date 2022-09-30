@@ -16,12 +16,11 @@ namespace MascotaFeliz.App.Consola
         
         static void Main(string[] args)
         {
-            Console.WriteLine("Hola amigos vamos a empezar a trabajar con las tablas");
+            Console.WriteLine("Hello World");
 
             //ListarDuenosFiltro();      
             //AddDueno();
             //BuscarDueno(1);
-            
             //ListarDuenos();
 
             //ListarVeterinariosFiltro();
@@ -48,11 +47,11 @@ namespace MascotaFeliz.App.Consola
             var dueno = new Dueno
             {
                
-                Nombres = "Juanito",
-                Apellidos = "Alimaña",
+                Nombres = "Carlos",
+                Apellidos = "Santana",
                 Direccion = "Casa de los padres",
                 Telefono = "515151515",
-                Correo = "juanitoalimana@gmail.com"
+                Correo = "csantana@gmail.com"
             };
             dueno = _repoDueno.AddDueno(dueno);
           
@@ -64,9 +63,9 @@ namespace MascotaFeliz.App.Consola
             {
                 
 
-                Nombres = "La Chilindrina",
-                Apellidos = "No se sabe",
-                Direccion = "Transversal 5 # 17A-155",
+                Nombres = "Pibe",
+                Apellidos = "Valderrama",
+                Direccion = "Barranquilla",
                 Telefono = "2222222222",
                 TarjetaProfesional = "TP0001"
             };
@@ -78,10 +77,10 @@ namespace MascotaFeliz.App.Consola
         {
             var mascota = new Mascota
             {
-                Nombre = "Ragnar",
-                Color = "Sable",
+                Nombre = "Polo",
+                Color = "Café",
                 Especie = "Canino",
-                Raza = "Husky"
+                Raza = "Cocker Spaniel"
             };
             _repoMascota.AddMascota(mascota);
 
